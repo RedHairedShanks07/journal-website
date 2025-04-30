@@ -32,7 +32,7 @@ const BoardOfMember = () => {
 
   return (
     <div id="advisory-board">
-      {renderTable(InternationalData, "International Board Members", "international-board")}
+{/*       {renderTable(InternationalData, "International Board Members", "international-board")} */}
       {renderTable(IndianData, "Indian Board Members", "indian-board")}
     </div>
   );
